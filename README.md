@@ -1,13 +1,9 @@
 # MedDSS — Sistema de Apoio à Decisão em Saúde
 
-Base de dados do projeto MedDSS (Medical Decision Support System), desenvolvido na UC de Métodos de Apoio à Decisão em Sistemas de Saúde (MADSS), 1.º ano do Mestrado em Engenharia Biomédica, no ISEP.
+Projeto MedDSS (Medical Decision Support System), desenvolvido na UC de Métodos de Apoio à Decisão em Sistemas de Saúde (MADSS), 1.º ano do Mestrado em Engenharia Biomédica, no ISEP.
 
 A proposta foi desenvolvida para apoiar hospitais públicos portugueses na decisão de aquisição e substituição de equipamento médico, com recomendações baseadas em critérios técnicos, financeiros e epidemiológicos (método AHP).
 
-## Autores
-
-Guilherme Pereira, Mariana Sá  
-Departamento de Física, ISEP, Porto, Portugal
 
 ## Ficheiro
 
@@ -66,3 +62,8 @@ Estes três equipamentos foram escolhidos por terem maior variedade de alternati
 - `indicadores_especialidade_regiao` — dados demográficos/epidemiológicos usados no cálculo da especialidade mais crítica
 - `equipamento` — inventário instalado nos hospitais (`id_hosp` preenchido) e catálogo de mercado (`id_hosp` = NULL)
 - `eq_tac`, `eq_rm`, `eq_rx`, `eq_angio`, `eq_holter`, `eq_ecg`, `eq_monitor`, `eq_desfibri`, `eq_eco`, `eq_cardiotoc`, `eq_bronco`, `eq_ventilad`, `eq_ortopedia` — atributos técnicos específicos por tipo de equipamento, usados como critérios no AHP
+
+## Autores
+
+Guilherme Pereira, Mariana Sá  
+Departamento de Física, ISEP, Porto, Portugal
